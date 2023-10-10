@@ -1,0 +1,17 @@
+let countEL = document.getElementById("countEL")
+
+console.log(countEL)
+let count=0
+
+function increment()
+{
+  count = count+1
+  countEL.innerText = count
+}
+function save()
+  {
+      console.log(count)
+  }
+  
+
+  
